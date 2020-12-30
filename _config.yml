@@ -1,8 +1,11 @@
-title: Adam Arthur is...
+title: Adam Arthur
+title_text: Hello!
 author: Adam Arthur
+author_title: Prolific Programmer
 url: https://adam-arthur.github.io # root address of the site
-description: > # description of the site (multiple lines allowed)
-  writing about all things software
+description: |
+  My name is <i>Adam Arthur</i> and I'm passionate about software. I'm on a mission to help others through strong contributions to open source software and blogging along the way. 
+  Let me know if you enjoy the content!
 
 permalink: /:slug.html
 

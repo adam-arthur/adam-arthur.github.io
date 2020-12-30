@@ -1,9 +1,9 @@
 navbar_entries:
-  - title: about
-    url: about
+  - title: consulting
+    url: consulting
 
-  - title: blog
-    url: blog
+  # - title: blog
+  #   url: blog
 
 project_entries:
   - title: Project 1
@@ -59,14 +59,15 @@ old_project_entries:
     highlight: archived
 
 footer_entries:
+  - title: linkedin
+    url: https://www.linkedin.com/in/adam-arthur-io/
+
   - title: github
     url: https://github.com/adam-arthur
 
   - title: twitter
     url: https://twitter.com/adam_arthur_io
 
-  - title: linkedin
-    url: https://www.linkedin.com/in/adam-arthur-io/
 
 misc_entries:
   - title: this is an example vertical list

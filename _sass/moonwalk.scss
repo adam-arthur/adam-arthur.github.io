@@ -175,6 +175,26 @@ mark {
   }
 }
 
+.name-section {
+  float: left;
+  margin-top: -15px;
+
+  > img {
+    display: inline-block;
+  }
+  
+  > div {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 13px;
+    line-height: 22px;
+  }
+}
+
+header .horizontal-list {
+  flex-direction: row-reverse;
+}
+
 
 // Dark Amethyst (High Contrast) - Exported from VS Code
 // Used for styling prismjs code snippets
