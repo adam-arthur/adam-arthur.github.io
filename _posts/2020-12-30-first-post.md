@@ -13,7 +13,7 @@ There are also certain areas of focus that could use more discussion and public 
 When I was coming up with the design for microfrontends at ThousandEyes, I found there wasn't much info on how to structure frontend services "properly". In the case where articles do cover design, there usually aren't concrete examples. After extensive research and successful implementation, I want to put forward a working design along with an end-to-end, working reference architecture.
 
 ### **Theory underlying Quality Code**
-Often discussions around best practices and code quality fall short of the rigor that these topics deserve. Everyone has their own stylistic preferences, but it's important to objetively quantify the differences between various stylistic approaches.
+Often discussions around best practices and code quality fall short of the rigor that these topics deserve. Everyone has their own stylistic preferences, but it's important to objectively quantify the differences between various stylistic approaches.
 
 If you have a long line, where do you place the line break, and why? A lot of these discussions fall into habit, or convention, rather than rigorous justification. The process by which the brain parses and converts visual regions into structured information is super important, and style should have more focus on "visual fragments".
 
