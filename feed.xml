@@ -1,146 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://adam-arthur.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://adam-arthur.github.io/" rel="alternate" type="text/html" /><updated>2020-12-30T10:45:50-06:00</updated><id>https://adam-arthur.github.io/feed.xml</id><title type="html">Adam Arthur</title><subtitle>My name is &lt;i&gt;Adam Arthur&lt;/i&gt; and I'm passionate about software. I'm on a mission to help others through strong contributions to open source software and blogging along the way. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://adam-arthur.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://adam-arthur.github.io/" rel="alternate" type="text/html" /><updated>2020-12-30T12:38:06-06:00</updated><id>https://adam-arthur.github.io/feed.xml</id><title type="html">Adam Arthur</title><subtitle>My name is &lt;i&gt;Adam Arthur&lt;/i&gt; and I'm passionate about software. I'm on a mission to help others through strong contributions to open source software and blogging along the way. 
 Let me know if you enjoy the content!
-</subtitle><author><name>Adam Arthur</name></author><entry><title type="html">Post Example With Headings And Toc</title><link href="https://adam-arthur.github.io/post-example-with-headings-and-toc.html" rel="alternate" type="text/html" title="Post Example With Headings And Toc" /><published>2020-07-09T00:00:00-05:00</published><updated>2020-07-09T00:00:00-05:00</updated><id>https://adam-arthur.github.io/post-example-with-headings-and-toc</id><content type="html" xml:base="https://adam-arthur.github.io/post-example-with-headings-and-toc.html">&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo.&lt;/p&gt;
+</subtitle><author><name>Adam Arthur</name></author><entry><title type="html">First Post! Topics of interest</title><link href="https://adam-arthur.github.io/first-post.html" rel="alternate" type="text/html" title="First Post! Topics of interest" /><published>2020-12-30T00:00:00-06:00</published><updated>2020-12-30T00:00:00-06:00</updated><id>https://adam-arthur.github.io/first-post</id><content type="html" xml:base="https://adam-arthur.github.io/first-post.html">&lt;p&gt;Hello all!&lt;/p&gt;
 
-&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#table-of-contents&quot;&gt;Table of contents&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#the-start&quot;&gt;The start&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#the-middle&quot;&gt;The middle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#the-end&quot;&gt;The end&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;I’ve decided to start contributing more heavily to open source, and want to blog about the journey along the way. A lot of the work I’ve done over the past years could provide value if exposed in a generic, public (and legal! From my employer’s perspective) way.&lt;/p&gt;
 
-&lt;p&gt;Mauris viverra dictum ultricies.&lt;/p&gt;
+&lt;p&gt;There are also certain areas of focus that could use more discussion and public solutions.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-start&quot;&gt;&lt;a href=&quot;#the-start&quot;&gt;The start&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;microfrontend-design&quot;&gt;&lt;strong&gt;“Microfrontend” design&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;When I was coming up with the design for microfrontends at ThousandEyes, I found there wasn’t much info on how to structure frontend services “properly”. In the case where articles do cover design, there usually aren’t concrete examples. After extensive research and successful implementation, I want to put forward a working design along with an end-to-end, working reference architecture.&lt;/p&gt;
 
-&lt;p&gt;Fusce non velit cursus ligula mattis convallis vel at metus.&lt;/p&gt;
+&lt;h3 id=&quot;theory-underlying-quality-code&quot;&gt;&lt;strong&gt;Theory underlying Quality Code&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Often discussions around best practices and code quality fall short of the rigor that these topics deserve. Everyone has their own stylistic preferences, but it’s important to objetively quantify the differences between various stylistic approaches.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-middle&quot;&gt;&lt;a href=&quot;#the-middle&quot;&gt;The middle&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you have a long line, where do you place the line break, and why? A lot of these discussions fall into habit, or convention, rather than rigorous justification. The process by which the brain parses and converts visual regions into structured information is super important, and style should have more focus on “visual fragments”.&lt;/p&gt;
 
-&lt;p&gt;Proin quis velit et eros auctor laoreet.&lt;/p&gt;
+&lt;p&gt;For example, &lt;a href=&quot;https://prettier.io/&quot;&gt;prettier&lt;/a&gt; has taken off in the JS world, but the code it produces is quantifiably “poor” from a UX standpoint. Often linebreaks are placed in non-ergonomic ways, and implementation details are made more prominent by how they’re positioned. I have plans to implement my own version of prettier that asserts more rigorous justification around the style of the output.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-end&quot;&gt;The end&lt;/h2&gt;
+&lt;h3 id=&quot;js-based-game-engine&quot;&gt;&lt;strong&gt;JS Based Game Engine&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Every developer seems to build their own game engine at some point, and it’s certainly a bloated market. However, there aren’t any robust and intuitive JS based game engines out there that are built with an appropriate separation of concerns.&lt;/p&gt;
 
-&lt;p&gt;Donec ex lectus, tempus non lacinia quis, pretium non ipsum.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://phaser.io/&quot;&gt;Phaser&lt;/a&gt; is certainly nice for building small games, but I grew frustrated with some of the design decisions, such as a hardcoded “health” property for game objects, and a plugin system that’s a bit awkward. It’s also difficult and inefficient to run it on the server for networked games, and nobody wants to maintain two largely duplicated branches of code for both the client/server.&lt;/p&gt;
 
-&lt;div&gt;
-    &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; gem &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;jekyll-prismjs-compile&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;p&gt;Beyond the engine, I plan to implement a networking component that makes it easy to create JS-based multiplayer games that can be deployed to the cloud.&lt;/p&gt;
+
+&lt;!-- &lt;div&gt;
+    &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class='language-javascript'&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; gem &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;jekyll-prismjs-compile&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;token console class-name&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token method function property-access&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;gem&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;/div&gt;</content><author><name>Adam Arthur</name></author><summary type="html">Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo.</summary></entry><entry><title type="html">Overview Post</title><link href="https://adam-arthur.github.io/overview-post.html" rel="alternate" type="text/html" title="Overview Post" /><published>2020-07-07T00:00:00-05:00</published><updated>2020-07-07T00:00:00-05:00</updated><id>https://adam-arthur.github.io/overview-post</id><content type="html" xml:base="https://adam-arthur.github.io/overview-post.html">&lt;p&gt;Lorem ipsum&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.&lt;/p&gt;
-
-&lt;h1 id=&quot;sample-heading-1&quot;&gt;Sample heading 1&lt;/h1&gt;
-&lt;h2 id=&quot;sample-heading-2&quot;&gt;Sample heading 2&lt;/h2&gt;
-&lt;h3 id=&quot;sample-heading-3&quot;&gt;Sample heading 3&lt;/h3&gt;
-&lt;h4 id=&quot;sample-heading-4&quot;&gt;Sample heading 4&lt;/h4&gt;
-&lt;h5 id=&quot;sample-heading-5&quot;&gt;Sample heading 5&lt;/h5&gt;
-&lt;h6 id=&quot;sample-heading-6&quot;&gt;Sample heading 6&lt;/h6&gt;
-
-&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.&lt;/p&gt;
-
-&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
-
-&lt;p&gt;Unordered:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Fusce non velit cursus ligula mattis convallis vel at metus&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-  &lt;li&gt;Sed pharetra tellus massa, non elementum eros vulputate non.&lt;/li&gt;
-  &lt;li&gt;Suspendisse potenti.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ordered:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc.&lt;/li&gt;
-  &lt;li&gt;Sed massa quam, auctor in eros quis, porttitor tincidunt orci.&lt;/li&gt;
-  &lt;li&gt;Nulla convallis id sapien ornare viverra.&lt;/li&gt;
-  &lt;li&gt;Nam a est eget ligula pellentesque posuere.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;blockquote&quot;&gt;Blockquote&lt;/h2&gt;
-
-&lt;p&gt;The following is a blockquote:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;thematic-breaks-hr&quot;&gt;Thematic breaks (&amp;lt;hr&amp;gt;)&lt;/h2&gt;
-
-&lt;p&gt;Mauris viverra dictum ultricies&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. &lt;strong&gt;You can put some text inside the horizontal rule like so.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr data-content=&quot;hr with text&quot; /&gt;
-
-&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. &lt;strong&gt;Or you can just have an clean horizontal rule.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. Or you can just have an clean horizontal rule.&lt;/p&gt;
-
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;Now some code:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const ultimateTruth = 'follow middlepath';
-console.log(ultimateTruth);
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And here is some &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inline code&lt;/code&gt;!&lt;/p&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;p&gt;Now a table:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Tables&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;col 3 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;col 2 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;zebra stripes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://www.abhinavsaxena.com/images/abhinav.jpeg&quot; alt=&quot;theme logo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is an image&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;hr data-content=&quot;footnotes&quot; /&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;this is a footnote. You should reach here if you click on the corresponding superscript number. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;hey there, don’t forget to read all the footnotes! &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;this is another footnote. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;this is a very very long footnote to test if a very very long footnote brings some problems or not; hope that there are no problems but you know sometimes problems arise from nowhere. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Adam Arthur</name></author><summary type="html">Lorem ipsum1 dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. this is a footnote. You should reach here if you click on the corresponding superscript number. &amp;#8617;</summary></entry></feed>
+&lt;/div&gt; --&gt;</content><author><name>Adam Arthur</name></author><summary type="html">Hello all!</summary></entry></feed>
