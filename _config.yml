@@ -7,17 +7,14 @@ description: |
   My name is <i>Adam Arthur</i> and I'm passionate about software. I'm on a mission to help others through strong contributions to open source software and blogging along the way. 
   Let me know if you enjoy the content!
 
-permalink: /:slug.html
+permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-remote_theme: abhinavs/moonwalk
-
 theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
-  back_home_text: "home.." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: "..home" # customize text for homepage link in post layout
+  date_format: "%b %Y" # customize how date is formatted
   show_description: true # show blog description in home page
   show_navbar: true # show horizontal navbar in home page
   show_footer: true # show footer links in home page,add in _data/home.yml
